@@ -47,6 +47,7 @@ module.exports = React.createClass({
             maxWidth: 960,
             padding: `${rhythm(1)} ${rhythm(3/4)}`,
             paddingTop: 0,
+            color: '#33646b',
           }}
         >
           {this.props.children}
