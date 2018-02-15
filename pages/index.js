@@ -1,11 +1,11 @@
 import React from 'react'
-import { Link } from 'react-router'
-import { prefixLink } from 'gatsby-helpers'
+import {Link} from 'react-router'
+import {prefixLink} from 'gatsby-helpers'
 import Helmet from "react-helmet"
-import { config } from 'config'
+import {config} from 'config'
 
 export default class Index extends React.Component {
-  render () {
+  render() {
     return (
       <div>
         <Helmet
@@ -16,9 +16,13 @@ export default class Index extends React.Component {
           ]}
         />
         <h1>
-          Hello World!
+          Help people reclaim the internet!
         </h1>
-        <p>Welcome to your new clean Gatsby site</p>
+        <p>
+          People should be getting what they are trying to get! People pay for an internet connection to gain access to
+          content and services that they need or want, but are then inundated by unwanted content and services. The
+          goal of the Safe Internet Foundation is to keep the unwanted content "out of the package deal".
+        </p>
       </div>
     )
   }
