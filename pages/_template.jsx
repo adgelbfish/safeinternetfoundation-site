@@ -21,7 +21,7 @@ module.exports = React.createClass({
             marginBottom: rhythm(1),
           }}
           style={{
-            background: '#252525'
+            background: '#38aed1'
           }}
         >
           <Container
