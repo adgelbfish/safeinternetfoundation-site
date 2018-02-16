@@ -19,9 +19,17 @@ export default class Index extends React.Component {
           Help people reclaim the internet!
         </h1>
         <p>
-          People should be getting what they are trying to get! People pay for an internet connection to gain access to
-          content and services that they need or want, but are then inundated by unwanted content and services. The
-          goal of the Safe Internet Foundation is to keep the unwanted content "out of the package deal".
+          The internet is a great way to get a lot of good things… and a lot of unwanted and dangerous things.
+
+          My dream is that we can all get together to stay safe in an evolving world, because everybody wants to be safe, and we’re better together.
+
+          With the understanding that no two people are the same, the goal is to create a framework that assists in people getting what they want while keeping what they don’t out.
+
+          It is my firm belief that mature adults are capable of making their own decisions about what is good or not, and I want to leave that decision to each individual person. The idea here is to give people the power to act on their decisions about what they want on their devices.
+
+          Get involved!
+
+          <a href="https://join.slack.com/t/safeinternetfdn/shared_invite/enQtMzE2MDU4MzY3MzAwLTk5NTEzMzJmYWZjZDhhYmNjNWIxNTQ4YzQ3OWExMDc2ZjM2MmIxYjgwZjllOGIxNmUxZjNmYzRhZTNhZTgyYjM">Join the slack team</a> or send me an email for info at avraham@safeinternet.foundation
         </p>
       </div>
     )
