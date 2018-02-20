@@ -30,7 +30,7 @@ export default class Index extends React.Component {
           Get involved!
 
           <a href="https://join.slack.com/t/safeinternetfdn/shared_invite/enQtMzE2MDU4MzY3MzAwLTk5NTEzMzJmYWZjZDhhYmNjNWIxNTQ4YzQ3OWExMDc2ZjM2MmIxYjgwZjllOGIxNmUxZjNmYzRhZTNhZTgyYjM">Join the slack team</a> or send me an email for info at avraham@safeinternet.foundation
-          <script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/b17bb4f8571c5a3c4c162f730/a57b32c343e45dd796cc62435.js");</script>
+          <script id="mcjs">{`!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/b17bb4f8571c5a3c4c162f730/a57b32c343e45dd796cc62435.js");`}</script>
         </p>
       </div>
     )
