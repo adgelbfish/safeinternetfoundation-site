@@ -39,6 +39,7 @@ module.exports = React.createClass({
         <body>
           <div id="react-mount" dangerouslySetInnerHTML={{ __html: this.props.body }} />
           <script src={prefixLink(`/bundle.js?t=${BUILD_TIME}`)} />
+          <script id="mcjs" src={prefixLink(`/mailchimp.js?t=${BUILD_TIME}`)} />
         </body>
       </html>
     )
