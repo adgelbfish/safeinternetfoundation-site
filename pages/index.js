@@ -5,7 +5,8 @@ import Helmet from "react-helmet"
 import {config} from 'config'
 
 let document = document || {
-  getElementsByTagName: () => {}
+  getElementsByTagName: () => {},
+  createElement: () => {}
 };
 let chimp = function (c, h, i, m, p) {
   m = c.createElement(h), p = c.getElementsByTagName(h)[0], m.async = 1, m.src = i, p.parentNode.insertBefore(m, p)
